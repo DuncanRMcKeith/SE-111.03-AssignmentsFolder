@@ -1,0 +1,29 @@
+html,body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+#container{
+    width: 1000px;
+    padding: 10px;
+    background-color: green;
+}
+#header{
+    background-color: aqua;
+    height: 60px;
+}
+#nav{
+    height: 40px;
+    background-color: violet;
+}
+#content{
+    height: 500px;
+    background-color: yellow;
+}
+aside{
+    height: 500px;
+}
+#footer{
+    height: 40px;
+    background-color: white;
+}
