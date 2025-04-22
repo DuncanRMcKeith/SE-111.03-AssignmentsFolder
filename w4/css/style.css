@@ -1,52 +1,75 @@
 html,body{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: skyblue;
+    color: white;
+
 }
 #container{
     width: 1000px;
     padding: 10px;
-    background-color: green;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   background-image: url(https://miro.medium.com/v2/resize:fit:5400/1*X-hagm2jL0EwiYmmYLoMgQ.jpeg);
+    text-align: center;
+    text-decoration-color: white;
 }
 #header{
-    background-color: aqua;
-    height: 60px;
+   
+    min-height: 60px;
     text-align: center;
 }
 #nav{
     height: 40px;
     padding: 10px;
-    background-color: violet;
     text-align: center;
 }
 #content{
-    height: 500px;
+    min-height: 500px;
     width: 590px;
     padding: 5px;
-    background-color: yellow;
+   
     float: left;
 }
 #sidebar{
-    height: 500px;
+    min-height: 500px;
     width: 390px;
     padding: 5px;
-    background-color: red;
+
     float: right;
+}
+.poster{
+    height: 490px;
+    width: 380px;
+    padding: 5px;
+    float: left;
 }
 #footer{
     height: 40px;
-    background-color: white;
-    width: 990px;
+    width: 1000px;
     float: left;
 }
 .nav-links{
     padding: 5px;
     text-align: center;
-    text-decoration:underline solid white;
+    
 }
 .nav-links:hover{
     padding: 5px;
     color:black;
     background-color: blue;
+}
+.synopsis{
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+    font-size: larger;
+}
+.info{
+    text-align: left;
+    border: 1px solid black;
+    font-size: larger
+}
+.character, img,h3{
+    height: 50px;
+    
+    
 }
