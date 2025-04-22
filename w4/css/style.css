@@ -43,7 +43,7 @@ html,body{
     float: left;
 }
 #footer{
-    height: 40px;
+    min-height: 40px;
     width: 1000px;
     float: left;
 }
@@ -72,4 +72,8 @@ html,body{
     height: 50px;
     
     
+}
+.screenshot{
+    height: 300px;
+    width: 500px;
 }
