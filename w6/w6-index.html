@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var hourly_pay = Number(prompt("Please insert your hourly pay", "14.50"))
+        var hours_worked =Number(prompt("Please Hours worked for two weeks"))
+        const tax =.20
+        
+        var gross = hourly_pay * hours_worked
+        var tax_total = gross * tax
+        var net = gross-tax_total
+        console.log(gross)
+        console.log(tax_total)
+        console.log(net)
+        alert(
+        `Gross pay: $${gross.toFixed(2)}\n
+        Uncle Sam's Share: $${tax_total.toFixed(2)}\n
+        Net Pay: $${net.toFixed(2)}`
+    )
+    </script>
+</body>
+</html>
